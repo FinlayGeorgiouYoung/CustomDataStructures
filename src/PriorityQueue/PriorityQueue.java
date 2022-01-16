@@ -3,7 +3,7 @@ package PriorityQueue;
 import java.util.Comparator;
 import java.util.LinkedList;
 
-
+//PriorityQueue is a collection of strings which have a priority associated with them, in the form of an integer. In this case the lowest number means highest priority, and therefore front of the queue. The priority numbers are currently bound by a range from 1 to 20, however this can be changed.
 public class PriorityQueue implements Queue<Integer, String> {
 
     //a LinkedList of objects of type Data are used to hold the data of the PriorityQueue

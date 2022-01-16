@@ -3,6 +3,8 @@ package WordTree;
 import java.util.*;
 
 
+//WordTree is a non-binary tree, which contains characters that make up the words added. Similar words use the same characters/nodes in the tree. For example, for "hey" and "hello", they both start with "he", and so will follow the same branch for the "h" and "e".
+
 //The WordTree class consists of a root node. When words are added to the WordTree the Characters of the word will be added one by one to the children of the current node starting with the root
 //Each Node has a HashMap which stores the Character's and the Node's of each child. The Character is the key and the Node is the value
 //Each Node also has a boolean called 'prefix' which is set to true if a word is a prefix, and a String called 'wordMade' which will be set to the word that is stored in the WordTree when the last Node/Character of that word is reached
@@ -46,7 +48,7 @@ public class WordTree {
             return false;
         }
 
-        //have the current node start of as the root node
+        //have the current node start off as the root node
         Node current = root;
 
         //loops through the characters of the word passed into the method

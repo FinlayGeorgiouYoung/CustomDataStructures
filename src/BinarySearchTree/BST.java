@@ -3,6 +3,7 @@ package BinarySearchTree;
 
 import java.util.NoSuchElementException;
 
+//BST is an integer only ordered binary tree, where everything to the left of a parent node is less than that node, and everything to the right is greater than that node.
 public class BST {
     private BTNode<Integer> root;
 
